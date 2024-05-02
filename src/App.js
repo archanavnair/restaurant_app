@@ -13,7 +13,7 @@ const App = () => (
     <Header />
      <AboutUs />
    <SpecialMenu />
-    <Chef />
+    {/* <Chef /> */}
     <Intro />
     <Laurels />
     <Gallery />
