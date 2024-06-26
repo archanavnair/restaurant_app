@@ -1,59 +1,80 @@
 import images from './images';
 
-const wines = [
+const appetizers = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'A1: Crispy Spring Rolls w/ Pork',
+    price: '$6.95',
+    tags: '2 Rolls',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'A5: Thai Tom Yum Soup',
+    price: '$6.50',
+    tags: 'Choice of Chicken, Beef, Shrimp or Veggies',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'A6: Tempura Shrimp',
+    price: '$9.25',
+    tags: '6 Pieces',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'A7: Cream Cheese Wontons',
+    price: '$8.50',
+    tags: '7 Peices',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'A9: Thai Basil & Chilli Wok Wings',
+    price: '$12.95',
+    tags: '',
+  },
+  {
+    title: 'A11: Thai Green Mango Salad w/ Grillled Meat',
+    price: '$11.95',
+    tags: 'Choice of Grilled Chicken/Beef or Shrimp',
   },
 ];
 
-const cocktails = [
+const main_course  = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'P1: House Special Pho',
+    price: '(S) 13.95 (L) 16.95',
+    tags: '',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'P2: Rare Beef Pho',
+    price: '(S) 13.95 (L) 16.95',
+    tags: '',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'P7: Chicken Pho',
+    price: '(S) 13.95 (L) 16.95',
+    tags: '',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'M1: Stir Fried Egg Noodles',
+    price: '$14.95',
+    tags: 'Choice of Beef, Chicken, Tofu or Shrimp ',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'M5: Traditional Pad Thai',
+    price: '$14.95',
+    tags: 'Choice of Beef, Chicken, Tofu or Shrimp ',
   },
+  {
+    title: 'N1: Grilled Pork Chop on Rice',
+    price: '$16.95',
+    tags: 'Choice of Beef, Chicken or Pork ',
+  },
+  {
+    title: 'G1: General Tao\'s Chicken',
+    price: '$16.95',
+    tags: ' ',
+  },
+  {
+    title: 'G2: Sweet & Sour Chicken',
+    price: '$16.95',
+    tags: ' ',
+  },
+  
 ];
 
 const awards = [
@@ -79,4 +100,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { appetizers, main_course, awards };
